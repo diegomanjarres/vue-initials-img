@@ -28,10 +28,6 @@ module.exports = function (env) {
                 postcss: [require('postcss-cssnext')()]
               }
             },
-
-            {
-              loader: 'eslint-loader'
-            }
           ]
         },
         {

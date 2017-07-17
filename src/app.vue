@@ -14,13 +14,13 @@ export default {
     }
   },
   computed: {
-    getImage() {
+    getImage: function() {
       return this.getDataURI(this.name, this.size)
     }
   },
 
   methods: {
-    getDataURI(name, size) {
+    getDataURI: function(name, size) {
 
       name = name || '';
       size = size || 60;

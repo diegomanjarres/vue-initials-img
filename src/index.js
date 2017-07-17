@@ -1,8 +1,8 @@
-import LetterAvatarImg from './app.vue'
+import VueInitialsImg from './app.vue'
 
-const LetterAvatarImgPlugin = {
-  install (Vue) {
-    Vue.component('letter-avatar-img', LetterAvatarImg)
+const VueInitialsImgPlugin = {
+  install: function (Vue) {
+    Vue.component('vue-initials-img', VueInitialsImg)
   }
 }
-export default LetterAvatarImgPlugin
+export default VueInitialsImgPlugin
