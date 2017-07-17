@@ -1,6 +1,6 @@
 # vue-initials-img
 
-![demo](https://raw.github.com/aidewoode/vue-initials-img/master/demo.png)
+![demo](https://raw.github.com/diegomanjarres/vue-initials-img/master/demo.png)
 
 
 ## Introduction
