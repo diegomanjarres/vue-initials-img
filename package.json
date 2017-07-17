@@ -1,0 +1,47 @@
+{
+  "name": "vue-initials-img",
+  "version": "1.0.0",
+  "description": "a vue-avatar like package that renders an img tag instead of a custom tag, for easier use with vuetify.",
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomanjarres/vue-initials-img.git"
+  },
+  "keywords": [
+    "vuetify",
+    "letter",
+    "initial",
+    "avatar",
+    "img",
+    "vue"
+  ],
+  "author": "Diego A. Manjarrés V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomanjarres/vue-initials-img/issues"
+  },
+  "homepage": "https://github.com/diegomanjarres/vue-initials-img#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.2",
+    "eslint": "^4.2.0",
+    "lint": "eslint --fix --ext .js,.vue src",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "postcss-cssnext": "^2.11.0",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
