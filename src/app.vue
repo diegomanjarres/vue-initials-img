@@ -35,6 +35,12 @@ export default {
         nameSplit = String(name)
         .toUpperCase()
         .split(' '),
+        charCodeSum = name
+          .split('')
+          .map((c) => {
+            return c.charCodeAt(0)
+          })
+        .reduce((a, b) => a + b, 0)
         initials, charIndex, colourIndex, canvas, context, dataURI;
 
       if (nameSplit.length == 1) {
@@ -47,8 +53,8 @@ export default {
         size = (size * window.devicePixelRatio);
       }
 
-      charIndex = (initials == '?' ? 72 : initials.charCodeAt(0)) - 64;
-      colourIndex = charIndex % 20;
+      charIndex = (initials == '?' ? 72 : charCodeSum) - 64;
+      colourIndex = charIndex % colours.length;
       canvas = document.createElement('canvas');
       canvas.width = size;
       canvas.height = size;
