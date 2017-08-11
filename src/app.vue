@@ -60,7 +60,7 @@ export default {
       canvas.height = size;
       context = canvas.getContext("2d");
 
-      context.fillStyle = colours[colourIndex - 1];
+      context.fillStyle = colours[colourIndex];
       context.fillRect(0, 0, canvas.width, canvas.height);
       context.font = Math.round(canvas.width / 2) + "px Arial";
       context.textAlign = "center";
