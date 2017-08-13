@@ -20,8 +20,8 @@ Vue.use(VueInitialsImg);
 ```
 
 Create avatar
-```js
-<vue-initials-img :name="Frank Underwood"/>
+```html
+<vue-initials-img :name="'Frank Underwood'"/>
 ```
 
 ## Properties
